@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EB1F2AD20F41CB9001762F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB1F2AC20F41CB9001762F9 /* AppDelegate.m */; };
+		3EB1F2B020F41CB9001762F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB1F2AF20F41CB9001762F9 /* ViewController.m */; };
+		3EB1F2B320F41CB9001762F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EB1F2B120F41CB9001762F9 /* Main.storyboard */; };
+		3EB1F2B520F41CBA001762F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EB1F2B420F41CBA001762F9 /* Assets.xcassets */; };
+		3EB1F2B820F41CBA001762F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EB1F2B620F41CBA001762F9 /* LaunchScreen.storyboard */; };
+		3EB1F2BB20F41CBA001762F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB1F2BA20F41CBA001762F9 /* main.m */; };
+		3EB1F2C520F41CBA001762F9 /* lizInstaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB1F2C420F41CBA001762F9 /* lizInstaTests.m */; };
+		3EB1F2D020F41CBA001762F9 /* lizInstaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB1F2CF20F41CBA001762F9 /* lizInstaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EB1F2C120F41CBA001762F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EB1F2A020F41CB8001762F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EB1F2A720F41CB8001762F9;
+			remoteInfo = lizInsta;
+		};
+		3EB1F2CC20F41CBA001762F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EB1F2A020F41CB8001762F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EB1F2A720F41CB8001762F9;
+			remoteInfo = lizInsta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3EB1F2A820F41CB8001762F9 /* lizInsta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lizInsta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EB1F2AB20F41CB8001762F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3EB1F2AC20F41CB9001762F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3EB1F2AE20F41CB9001762F9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3EB1F2AF20F41CB9001762F9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3EB1F2B220F41CB9001762F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3EB1F2B420F41CBA001762F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EB1F2B720F41CBA001762F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3EB1F2B920F41CBA001762F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EB1F2BA20F41CBA001762F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3EB1F2C020F41CBA001762F9 /* lizInstaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lizInstaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EB1F2C420F41CBA001762F9 /* lizInstaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lizInstaTests.m; sourceTree = "<group>"; };
+		3EB1F2C620F41CBA001762F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EB1F2CB20F41CBA001762F9 /* lizInstaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lizInstaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EB1F2CF20F41CBA001762F9 /* lizInstaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lizInstaUITests.m; sourceTree = "<group>"; };
+		3EB1F2D120F41CBA001762F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EB1F2A520F41CB8001762F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EB1F2BD20F41CBA001762F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EB1F2C820F41CBA001762F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EB1F29F20F41CB8001762F9 = {
+			isa = PBXGroup;
+			children = (
+				3EB1F2AA20F41CB8001762F9 /* lizInsta */,
+				3EB1F2C320F41CBA001762F9 /* lizInstaTests */,
+				3EB1F2CE20F41CBA001762F9 /* lizInstaUITests */,
+				3EB1F2A920F41CB8001762F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EB1F2A920F41CB8001762F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EB1F2A820F41CB8001762F9 /* lizInsta.app */,
+				3EB1F2C020F41CBA001762F9 /* lizInstaTests.xctest */,
+				3EB1F2CB20F41CBA001762F9 /* lizInstaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EB1F2AA20F41CB8001762F9 /* lizInsta */ = {
+			isa = PBXGroup;
+			children = (
+				3EB1F2AB20F41CB8001762F9 /* AppDelegate.h */,
+				3EB1F2AC20F41CB9001762F9 /* AppDelegate.m */,
+				3EB1F2AE20F41CB9001762F9 /* ViewController.h */,
+				3EB1F2AF20F41CB9001762F9 /* ViewController.m */,
+				3EB1F2B120F41CB9001762F9 /* Main.storyboard */,
+				3EB1F2B420F41CBA001762F9 /* Assets.xcassets */,
+				3EB1F2B620F41CBA001762F9 /* LaunchScreen.storyboard */,
+				3EB1F2B920F41CBA001762F9 /* Info.plist */,
+				3EB1F2BA20F41CBA001762F9 /* main.m */,
+			);
+			path = lizInsta;
+			sourceTree = "<group>";
+		};
+		3EB1F2C320F41CBA001762F9 /* lizInstaTests */ = {
+			isa = PBXGroup;
+			children = (
+				3EB1F2C420F41CBA001762F9 /* lizInstaTests.m */,
+				3EB1F2C620F41CBA001762F9 /* Info.plist */,
+			);
+			path = lizInstaTests;
+			sourceTree = "<group>";
+		};
+		3EB1F2CE20F41CBA001762F9 /* lizInstaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3EB1F2CF20F41CBA001762F9 /* lizInstaUITests.m */,
+				3EB1F2D120F41CBA001762F9 /* Info.plist */,
+			);
+			path = lizInstaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EB1F2A720F41CB8001762F9 /* lizInsta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EB1F2D420F41CBA001762F9 /* Build configuration list for PBXNativeTarget "lizInsta" */;
+			buildPhases = (
+				3EB1F2A420F41CB8001762F9 /* Sources */,
+				3EB1F2A520F41CB8001762F9 /* Frameworks */,
+				3EB1F2A620F41CB8001762F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lizInsta;
+			productName = lizInsta;
+			productReference = 3EB1F2A820F41CB8001762F9 /* lizInsta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EB1F2BF20F41CBA001762F9 /* lizInstaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EB1F2D720F41CBA001762F9 /* Build configuration list for PBXNativeTarget "lizInstaTests" */;
+			buildPhases = (
+				3EB1F2BC20F41CBA001762F9 /* Sources */,
+				3EB1F2BD20F41CBA001762F9 /* Frameworks */,
+				3EB1F2BE20F41CBA001762F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EB1F2C220F41CBA001762F9 /* PBXTargetDependency */,
+			);
+			name = lizInstaTests;
+			productName = lizInstaTests;
+			productReference = 3EB1F2C020F41CBA001762F9 /* lizInstaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3EB1F2CA20F41CBA001762F9 /* lizInstaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EB1F2DA20F41CBA001762F9 /* Build configuration list for PBXNativeTarget "lizInstaUITests" */;
+			buildPhases = (
+				3EB1F2C720F41CBA001762F9 /* Sources */,
+				3EB1F2C820F41CBA001762F9 /* Frameworks */,
+				3EB1F2C920F41CBA001762F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EB1F2CD20F41CBA001762F9 /* PBXTargetDependency */,
+			);
+			name = lizInstaUITests;
+			productName = lizInstaUITests;
+			productReference = 3EB1F2CB20F41CBA001762F9 /* lizInstaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EB1F2A020F41CB8001762F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Lizbeth Alejandra Gonzalez";
+				TargetAttributes = {
+					3EB1F2A720F41CB8001762F9 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					3EB1F2BF20F41CBA001762F9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3EB1F2A720F41CB8001762F9;
+					};
+					3EB1F2CA20F41CBA001762F9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3EB1F2A720F41CB8001762F9;
+					};
+				};
+			};
+			buildConfigurationList = 3EB1F2A320F41CB8001762F9 /* Build configuration list for PBXProject "lizInsta" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EB1F29F20F41CB8001762F9;
+			productRefGroup = 3EB1F2A920F41CB8001762F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EB1F2A720F41CB8001762F9 /* lizInsta */,
+				3EB1F2BF20F41CBA001762F9 /* lizInstaTests */,
+				3EB1F2CA20F41CBA001762F9 /* lizInstaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EB1F2A620F41CB8001762F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EB1F2B820F41CBA001762F9 /* LaunchScreen.storyboard in Resources */,
+				3EB1F2B520F41CBA001762F9 /* Assets.xcassets in Resources */,
+				3EB1F2B320F41CB9001762F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EB1F2BE20F41CBA001762F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EB1F2C920F41CBA001762F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EB1F2A420F41CB8001762F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EB1F2B020F41CB9001762F9 /* ViewController.m in Sources */,
+				3EB1F2BB20F41CBA001762F9 /* main.m in Sources */,
+				3EB1F2AD20F41CB9001762F9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EB1F2BC20F41CBA001762F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EB1F2C520F41CBA001762F9 /* lizInstaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EB1F2C720F41CBA001762F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EB1F2D020F41CBA001762F9 /* lizInstaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EB1F2C220F41CBA001762F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EB1F2A720F41CB8001762F9 /* lizInsta */;
+			targetProxy = 3EB1F2C120F41CBA001762F9 /* PBXContainerItemProxy */;
+		};
+		3EB1F2CD20F41CBA001762F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EB1F2A720F41CB8001762F9 /* lizInsta */;
+			targetProxy = 3EB1F2CC20F41CBA001762F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3EB1F2B120F41CB9001762F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EB1F2B220F41CB9001762F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3EB1F2B620F41CBA001762F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EB1F2B720F41CBA001762F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EB1F2D220F41CBA001762F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3EB1F2D320F41CBA001762F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EB1F2D520F41CBA001762F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lizInsta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Codepath.lizInsta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EB1F2D620F41CBA001762F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lizInsta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Codepath.lizInsta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3EB1F2D820F41CBA001762F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lizInstaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Codepath.lizInstaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lizInsta.app/lizInsta";
+			};
+			name = Debug;
+		};
+		3EB1F2D920F41CBA001762F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lizInstaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Codepath.lizInstaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lizInsta.app/lizInsta";
+			};
+			name = Release;
+		};
+		3EB1F2DB20F41CBA001762F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lizInstaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Codepath.lizInstaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lizInsta;
+			};
+			name = Debug;
+		};
+		3EB1F2DC20F41CBA001762F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lizInstaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Codepath.lizInstaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lizInsta;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EB1F2A320F41CB8001762F9 /* Build configuration list for PBXProject "lizInsta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EB1F2D220F41CBA001762F9 /* Debug */,
+				3EB1F2D320F41CBA001762F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EB1F2D420F41CBA001762F9 /* Build configuration list for PBXNativeTarget "lizInsta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EB1F2D520F41CBA001762F9 /* Debug */,
+				3EB1F2D620F41CBA001762F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EB1F2D720F41CBA001762F9 /* Build configuration list for PBXNativeTarget "lizInstaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EB1F2D820F41CBA001762F9 /* Debug */,
+				3EB1F2D920F41CBA001762F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EB1F2DA20F41CBA001762F9 /* Build configuration list for PBXNativeTarget "lizInstaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EB1F2DB20F41CBA001762F9 /* Debug */,
+				3EB1F2DC20F41CBA001762F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EB1F2A020F41CB8001762F9 /* Project object */;
+}
