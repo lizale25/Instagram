@@ -1,0 +1,6 @@
+framework module Pods_lizInstaTests {
+  umbrella header "Pods-lizInstaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

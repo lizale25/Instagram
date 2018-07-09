@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B56E6913621CC3322B17233 /* libPods-lizInstaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 111126DF85DF38E5ADA5F622 /* libPods-lizInstaTests.a */; };
+		308C6A42D775F05BE92CD371 /* libPods-lizInsta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FABB0949B023CC42FBE9ABEB /* libPods-lizInsta.a */; };
 		3EB1F2AD20F41CB9001762F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB1F2AC20F41CB9001762F9 /* AppDelegate.m */; };
 		3EB1F2B020F41CB9001762F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB1F2AF20F41CB9001762F9 /* ViewController.m */; };
 		3EB1F2B320F41CB9001762F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EB1F2B120F41CB9001762F9 /* Main.storyboard */; };
@@ -15,6 +17,7 @@
 		3EB1F2BB20F41CBA001762F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB1F2BA20F41CBA001762F9 /* main.m */; };
 		3EB1F2C520F41CBA001762F9 /* lizInstaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB1F2C420F41CBA001762F9 /* lizInstaTests.m */; };
 		3EB1F2D020F41CBA001762F9 /* lizInstaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB1F2CF20F41CBA001762F9 /* lizInstaUITests.m */; };
+		FBCE59AC9039664A29E7333F /* libPods-lizInstaUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B697AEF7FBC6415444E1555 /* libPods-lizInstaUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		024F605102D6B3229855E5D3 /* Pods-lizInsta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lizInsta.release.xcconfig"; path = "Pods/Target Support Files/Pods-lizInsta/Pods-lizInsta.release.xcconfig"; sourceTree = "<group>"; };
+		111126DF85DF38E5ADA5F622 /* libPods-lizInstaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lizInstaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27A88EDE4CD8765C68FE871C /* Pods-lizInstaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lizInstaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lizInstaUITests/Pods-lizInstaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3EB1F2A820F41CB8001762F9 /* lizInsta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lizInsta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EB1F2AB20F41CB8001762F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3EB1F2AC20F41CB9001762F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +57,12 @@
 		3EB1F2CB20F41CBA001762F9 /* lizInstaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lizInstaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EB1F2CF20F41CBA001762F9 /* lizInstaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lizInstaUITests.m; sourceTree = "<group>"; };
 		3EB1F2D120F41CBA001762F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		734ECE3A1CD2C73670B41FDB /* Pods-lizInstaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lizInstaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lizInstaTests/Pods-lizInstaTests.release.xcconfig"; sourceTree = "<group>"; };
+		885CE7FD02268840051C1C00 /* Pods-lizInsta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lizInsta.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lizInsta/Pods-lizInsta.debug.xcconfig"; sourceTree = "<group>"; };
+		8B697AEF7FBC6415444E1555 /* libPods-lizInstaUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lizInstaUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4FFF9109C8D238264BED853 /* Pods-lizInstaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lizInstaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lizInstaTests/Pods-lizInstaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5FAD30B24911120669B1584 /* Pods-lizInstaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lizInstaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lizInstaUITests/Pods-lizInstaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FABB0949B023CC42FBE9ABEB /* libPods-lizInsta.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lizInsta.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				308C6A42D775F05BE92CD371 /* libPods-lizInsta.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B56E6913621CC3322B17233 /* libPods-lizInstaTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBCE59AC9039664A29E7333F /* libPods-lizInstaUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,8 @@
 				3EB1F2C320F41CBA001762F9 /* lizInstaTests */,
 				3EB1F2CE20F41CBA001762F9 /* lizInstaUITests */,
 				3EB1F2A920F41CB8001762F9 /* Products */,
+				9756051997191965B0B68447 /* Pods */,
+				EE91D9A18711EBE6CC3746D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +149,29 @@
 			path = lizInstaUITests;
 			sourceTree = "<group>";
 		};
+		9756051997191965B0B68447 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				885CE7FD02268840051C1C00 /* Pods-lizInsta.debug.xcconfig */,
+				024F605102D6B3229855E5D3 /* Pods-lizInsta.release.xcconfig */,
+				F4FFF9109C8D238264BED853 /* Pods-lizInstaTests.debug.xcconfig */,
+				734ECE3A1CD2C73670B41FDB /* Pods-lizInstaTests.release.xcconfig */,
+				F5FAD30B24911120669B1584 /* Pods-lizInstaUITests.debug.xcconfig */,
+				27A88EDE4CD8765C68FE871C /* Pods-lizInstaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EE91D9A18711EBE6CC3746D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FABB0949B023CC42FBE9ABEB /* libPods-lizInsta.a */,
+				111126DF85DF38E5ADA5F622 /* libPods-lizInstaTests.a */,
+				8B697AEF7FBC6415444E1555 /* libPods-lizInstaUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3EB1F2D420F41CBA001762F9 /* Build configuration list for PBXNativeTarget "lizInsta" */;
 			buildPhases = (
+				0A151ED64CA1F00A3B92030F /* [CP] Check Pods Manifest.lock */,
 				3EB1F2A420F41CB8001762F9 /* Sources */,
 				3EB1F2A520F41CB8001762F9 /* Frameworks */,
 				3EB1F2A620F41CB8001762F9 /* Resources */,
+				A3E1F7A5BCBD2C4B3DDF3656 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3EB1F2D720F41CBA001762F9 /* Build configuration list for PBXNativeTarget "lizInstaTests" */;
 			buildPhases = (
+				5839212A195B610DF4C84706 /* [CP] Check Pods Manifest.lock */,
 				3EB1F2BC20F41CBA001762F9 /* Sources */,
 				3EB1F2BD20F41CBA001762F9 /* Frameworks */,
 				3EB1F2BE20F41CBA001762F9 /* Resources */,
@@ -174,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3EB1F2DA20F41CBA001762F9 /* Build configuration list for PBXNativeTarget "lizInstaUITests" */;
 			buildPhases = (
+				B45272C9B714C96B4558C850 /* [CP] Check Pods Manifest.lock */,
 				3EB1F2C720F41CBA001762F9 /* Sources */,
 				3EB1F2C820F41CBA001762F9 /* Frameworks */,
 				3EB1F2C920F41CBA001762F9 /* Resources */,
@@ -256,6 +300,81 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A151ED64CA1F00A3B92030F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lizInsta-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5839212A195B610DF4C84706 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lizInstaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3E1F7A5BCBD2C4B3DDF3656 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-lizInsta/Pods-lizInsta-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Parse/Parse.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Parse.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lizInsta/Pods-lizInsta-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B45272C9B714C96B4558C850 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lizInstaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3EB1F2A420F41CB8001762F9 /* Sources */ = {
@@ -431,6 +550,7 @@
 		};
 		3EB1F2D520F41CBA001762F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 885CE7FD02268840051C1C00 /* Pods-lizInsta.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +567,7 @@
 		};
 		3EB1F2D620F41CBA001762F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 024F605102D6B3229855E5D3 /* Pods-lizInsta.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -463,6 +584,7 @@
 		};
 		3EB1F2D820F41CBA001762F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4FFF9109C8D238264BED853 /* Pods-lizInstaTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -481,6 +603,7 @@
 		};
 		3EB1F2D920F41CBA001762F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 734ECE3A1CD2C73670B41FDB /* Pods-lizInstaTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +622,7 @@
 		};
 		3EB1F2DB20F41CBA001762F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5FAD30B24911120669B1584 /* Pods-lizInstaUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = lizInstaUITests/Info.plist;
@@ -516,6 +640,7 @@
 		};
 		3EB1F2DC20F41CBA001762F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27A88EDE4CD8765C68FE871C /* Pods-lizInstaUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = lizInstaUITests/Info.plist;
