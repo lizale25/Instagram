@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		2B56E6913621CC3322B17233 /* libPods-lizInstaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 111126DF85DF38E5ADA5F622 /* libPods-lizInstaTests.a */; };
 		308C6A42D775F05BE92CD371 /* libPods-lizInsta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FABB0949B023CC42FBE9ABEB /* libPods-lizInsta.a */; };
+		3E73A45720F49062009A7186 /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E73A45620F49062009A7186 /* FeedViewController.m */; };
+		3E7ABE9220F52F71008261BE /* postViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7ABE9120F52F71008261BE /* postViewController.m */; };
+		3E7ABE9520F54E90008261BE /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7ABE9420F54E90008261BE /* Post.m */; };
+		3E7ABE9820F55641008261BE /* PostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7ABE9720F55641008261BE /* PostTableViewCell.m */; };
+		3E7ABE9B20F577C3008261BE /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7ABE9A20F577C3008261BE /* DetailsViewController.m */; };
 		3E84A64020F42B41006C88E7 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E84A63F20F42B41006C88E7 /* LoginViewController.m */; };
 		3E84A64320F4325C006C88E7 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E84A64220F4325C006C88E7 /* HomeViewController.m */; };
 		3EB1F2AD20F41CB9001762F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB1F2AC20F41CB9001762F9 /* AppDelegate.m */; };
@@ -42,6 +47,16 @@
 		024F605102D6B3229855E5D3 /* Pods-lizInsta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lizInsta.release.xcconfig"; path = "Pods/Target Support Files/Pods-lizInsta/Pods-lizInsta.release.xcconfig"; sourceTree = "<group>"; };
 		111126DF85DF38E5ADA5F622 /* libPods-lizInstaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lizInstaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27A88EDE4CD8765C68FE871C /* Pods-lizInstaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lizInstaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lizInstaUITests/Pods-lizInstaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3E73A45520F49062009A7186 /* FeedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
+		3E73A45620F49062009A7186 /* FeedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
+		3E7ABE9020F52F71008261BE /* postViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = postViewController.h; sourceTree = "<group>"; };
+		3E7ABE9120F52F71008261BE /* postViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = postViewController.m; sourceTree = "<group>"; };
+		3E7ABE9320F54E90008261BE /* Post.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		3E7ABE9420F54E90008261BE /* Post.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		3E7ABE9620F55641008261BE /* PostTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostTableViewCell.h; sourceTree = "<group>"; };
+		3E7ABE9720F55641008261BE /* PostTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostTableViewCell.m; sourceTree = "<group>"; };
+		3E7ABE9920F577C3008261BE /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		3E7ABE9A20F577C3008261BE /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 		3E84A63E20F42B41006C88E7 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		3E84A63F20F42B41006C88E7 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		3E84A64120F4325C006C88E7 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
@@ -124,6 +139,16 @@
 				3EB1F2AB20F41CB8001762F9 /* AppDelegate.h */,
 				3EB1F2AC20F41CB9001762F9 /* AppDelegate.m */,
 				3EB1F2B120F41CB9001762F9 /* Main.storyboard */,
+				3E7ABE9920F577C3008261BE /* DetailsViewController.h */,
+				3E7ABE9A20F577C3008261BE /* DetailsViewController.m */,
+				3E7ABE9020F52F71008261BE /* postViewController.h */,
+				3E7ABE9120F52F71008261BE /* postViewController.m */,
+				3E73A45520F49062009A7186 /* FeedViewController.h */,
+				3E73A45620F49062009A7186 /* FeedViewController.m */,
+				3E7ABE9320F54E90008261BE /* Post.h */,
+				3E7ABE9420F54E90008261BE /* Post.m */,
+				3E7ABE9620F55641008261BE /* PostTableViewCell.h */,
+				3E7ABE9720F55641008261BE /* PostTableViewCell.m */,
 				3EB1F2B420F41CBA001762F9 /* Assets.xcassets */,
 				3EB1F2B620F41CBA001762F9 /* LaunchScreen.storyboard */,
 				3EB1F2B920F41CBA001762F9 /* Info.plist */,
@@ -387,9 +412,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EB1F2BB20F41CBA001762F9 /* main.m in Sources */,
+				3E73A45720F49062009A7186 /* FeedViewController.m in Sources */,
 				3EB1F2AD20F41CB9001762F9 /* AppDelegate.m in Sources */,
 				3E84A64020F42B41006C88E7 /* LoginViewController.m in Sources */,
+				3E7ABE9220F52F71008261BE /* postViewController.m in Sources */,
 				3E84A64320F4325C006C88E7 /* HomeViewController.m in Sources */,
+				3E7ABE9B20F577C3008261BE /* DetailsViewController.m in Sources */,
+				3E7ABE9520F54E90008261BE /* Post.m in Sources */,
+				3E7ABE9820F55641008261BE /* PostTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -560,6 +590,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BN7TCB94L4;
 				INFOPLIST_FILE = lizInsta/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -577,6 +608,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BN7TCB94L4;
 				INFOPLIST_FILE = lizInsta/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
