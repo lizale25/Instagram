@@ -9,8 +9,9 @@
 /* Begin PBXBuildFile section */
 		2B56E6913621CC3322B17233 /* libPods-lizInstaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 111126DF85DF38E5ADA5F622 /* libPods-lizInstaTests.a */; };
 		308C6A42D775F05BE92CD371 /* libPods-lizInsta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FABB0949B023CC42FBE9ABEB /* libPods-lizInsta.a */; };
+		3E84A64020F42B41006C88E7 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E84A63F20F42B41006C88E7 /* LoginViewController.m */; };
+		3E84A64320F4325C006C88E7 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E84A64220F4325C006C88E7 /* HomeViewController.m */; };
 		3EB1F2AD20F41CB9001762F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB1F2AC20F41CB9001762F9 /* AppDelegate.m */; };
-		3EB1F2B020F41CB9001762F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB1F2AF20F41CB9001762F9 /* ViewController.m */; };
 		3EB1F2B320F41CB9001762F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EB1F2B120F41CB9001762F9 /* Main.storyboard */; };
 		3EB1F2B520F41CBA001762F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EB1F2B420F41CBA001762F9 /* Assets.xcassets */; };
 		3EB1F2B820F41CBA001762F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EB1F2B620F41CBA001762F9 /* LaunchScreen.storyboard */; };
@@ -41,11 +42,13 @@
 		024F605102D6B3229855E5D3 /* Pods-lizInsta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lizInsta.release.xcconfig"; path = "Pods/Target Support Files/Pods-lizInsta/Pods-lizInsta.release.xcconfig"; sourceTree = "<group>"; };
 		111126DF85DF38E5ADA5F622 /* libPods-lizInstaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lizInstaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27A88EDE4CD8765C68FE871C /* Pods-lizInstaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lizInstaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lizInstaUITests/Pods-lizInstaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3E84A63E20F42B41006C88E7 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		3E84A63F20F42B41006C88E7 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		3E84A64120F4325C006C88E7 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		3E84A64220F4325C006C88E7 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		3EB1F2A820F41CB8001762F9 /* lizInsta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lizInsta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EB1F2AB20F41CB8001762F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3EB1F2AC20F41CB9001762F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3EB1F2AE20F41CB9001762F9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3EB1F2AF20F41CB9001762F9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3EB1F2B220F41CB9001762F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3EB1F2B420F41CBA001762F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EB1F2B720F41CBA001762F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -120,13 +123,15 @@
 			children = (
 				3EB1F2AB20F41CB8001762F9 /* AppDelegate.h */,
 				3EB1F2AC20F41CB9001762F9 /* AppDelegate.m */,
-				3EB1F2AE20F41CB9001762F9 /* ViewController.h */,
-				3EB1F2AF20F41CB9001762F9 /* ViewController.m */,
 				3EB1F2B120F41CB9001762F9 /* Main.storyboard */,
 				3EB1F2B420F41CBA001762F9 /* Assets.xcassets */,
 				3EB1F2B620F41CBA001762F9 /* LaunchScreen.storyboard */,
 				3EB1F2B920F41CBA001762F9 /* Info.plist */,
 				3EB1F2BA20F41CBA001762F9 /* main.m */,
+				3E84A63E20F42B41006C88E7 /* LoginViewController.h */,
+				3E84A63F20F42B41006C88E7 /* LoginViewController.m */,
+				3E84A64120F4325C006C88E7 /* HomeViewController.h */,
+				3E84A64220F4325C006C88E7 /* HomeViewController.m */,
 			);
 			path = lizInsta;
 			sourceTree = "<group>";
@@ -381,9 +386,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EB1F2B020F41CB9001762F9 /* ViewController.m in Sources */,
 				3EB1F2BB20F41CBA001762F9 /* main.m in Sources */,
 				3EB1F2AD20F41CB9001762F9 /* AppDelegate.m in Sources */,
+				3E84A64020F42B41006C88E7 /* LoginViewController.m in Sources */,
+				3E84A64320F4325C006C88E7 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
