@@ -15,6 +15,8 @@
 		3E7ABE9820F55641008261BE /* PostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7ABE9720F55641008261BE /* PostTableViewCell.m */; };
 		3E7ABE9B20F577C3008261BE /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7ABE9A20F577C3008261BE /* DetailsViewController.m */; };
 		3E7ABE9E20F586F7008261BE /* DetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7ABE9D20F586F7008261BE /* DetailTableViewCell.m */; };
+		3E7D586D20F6ABD900DC19F0 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D586C20F6ABD900DC19F0 /* PhotoViewController.m */; };
+		3E7D587020F6C77B00DC19F0 /* ProfileCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D586F20F6C77B00DC19F0 /* ProfileCollectionViewCell.m */; };
 		3E84A64020F42B41006C88E7 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E84A63F20F42B41006C88E7 /* LoginViewController.m */; };
 		3E84A64320F4325C006C88E7 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E84A64220F4325C006C88E7 /* HomeViewController.m */; };
 		3EB1F2AD20F41CB9001762F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB1F2AC20F41CB9001762F9 /* AppDelegate.m */; };
@@ -60,6 +62,10 @@
 		3E7ABE9A20F577C3008261BE /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 		3E7ABE9C20F586F7008261BE /* DetailTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailTableViewCell.h; sourceTree = "<group>"; };
 		3E7ABE9D20F586F7008261BE /* DetailTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailTableViewCell.m; sourceTree = "<group>"; };
+		3E7D586B20F6ABD900DC19F0 /* PhotoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		3E7D586C20F6ABD900DC19F0 /* PhotoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		3E7D586E20F6C77B00DC19F0 /* ProfileCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileCollectionViewCell.h; sourceTree = "<group>"; };
+		3E7D586F20F6C77B00DC19F0 /* ProfileCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileCollectionViewCell.m; sourceTree = "<group>"; };
 		3E84A63E20F42B41006C88E7 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		3E84A63F20F42B41006C88E7 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		3E84A64120F4325C006C88E7 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
@@ -114,6 +120,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E7D586920F6AB2500DC19F0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3E7D586B20F6ABD900DC19F0 /* PhotoViewController.h */,
+				3E7D586C20F6ABD900DC19F0 /* PhotoViewController.m */,
+				3E7ABE9A20F577C3008261BE /* DetailsViewController.m */,
+				3E7ABE9920F577C3008261BE /* DetailsViewController.h */,
+				3E73A45520F49062009A7186 /* FeedViewController.h */,
+				3E73A45620F49062009A7186 /* FeedViewController.m */,
+				3E84A63E20F42B41006C88E7 /* LoginViewController.h */,
+				3E84A63F20F42B41006C88E7 /* LoginViewController.m */,
+				3E84A64120F4325C006C88E7 /* HomeViewController.h */,
+				3E84A64220F4325C006C88E7 /* HomeViewController.m */,
+				3E7ABE9020F52F71008261BE /* PostViewController.h */,
+				3E7ABE9120F52F71008261BE /* PostViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3E7D586A20F6AB6C00DC19F0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		3EB1F29F20F41CB8001762F9 = {
 			isa = PBXGroup;
 			children = (
@@ -139,29 +171,23 @@
 		3EB1F2AA20F41CB8001762F9 /* lizInsta */ = {
 			isa = PBXGroup;
 			children = (
+				3E7D586A20F6AB6C00DC19F0 /* Cells */,
+				3E7ABE9C20F586F7008261BE /* DetailTableViewCell.h */,
+				3E7ABE9D20F586F7008261BE /* DetailTableViewCell.m */,
+				3E7ABE9620F55641008261BE /* PostTableViewCell.h */,
+				3E7ABE9720F55641008261BE /* PostTableViewCell.m */,
+				3E7D586920F6AB2500DC19F0 /* ViewControllers */,
 				3EB1F2AB20F41CB8001762F9 /* AppDelegate.h */,
 				3EB1F2AC20F41CB9001762F9 /* AppDelegate.m */,
 				3EB1F2B120F41CB9001762F9 /* Main.storyboard */,
-				3E7ABE9C20F586F7008261BE /* DetailTableViewCell.h */,
-				3E7ABE9D20F586F7008261BE /* DetailTableViewCell.m */,
-				3E7ABE9920F577C3008261BE /* DetailsViewController.h */,
-				3E7ABE9A20F577C3008261BE /* DetailsViewController.m */,
-				3E7ABE9020F52F71008261BE /* PostViewController.h */,
-				3E7ABE9120F52F71008261BE /* PostViewController.m */,
-				3E73A45520F49062009A7186 /* FeedViewController.h */,
-				3E73A45620F49062009A7186 /* FeedViewController.m */,
+				3E7D586E20F6C77B00DC19F0 /* ProfileCollectionViewCell.h */,
+				3E7D586F20F6C77B00DC19F0 /* ProfileCollectionViewCell.m */,
 				3E7ABE9320F54E90008261BE /* Post.h */,
 				3E7ABE9420F54E90008261BE /* Post.m */,
-				3E7ABE9620F55641008261BE /* PostTableViewCell.h */,
-				3E7ABE9720F55641008261BE /* PostTableViewCell.m */,
 				3EB1F2B420F41CBA001762F9 /* Assets.xcassets */,
 				3EB1F2B620F41CBA001762F9 /* LaunchScreen.storyboard */,
 				3EB1F2B920F41CBA001762F9 /* Info.plist */,
 				3EB1F2BA20F41CBA001762F9 /* main.m */,
-				3E84A63E20F42B41006C88E7 /* LoginViewController.h */,
-				3E84A63F20F42B41006C88E7 /* LoginViewController.m */,
-				3E84A64120F4325C006C88E7 /* HomeViewController.h */,
-				3E84A64220F4325C006C88E7 /* HomeViewController.m */,
 			);
 			path = lizInsta;
 			sourceTree = "<group>";
@@ -431,6 +457,8 @@
 				3E7ABE9B20F577C3008261BE /* DetailsViewController.m in Sources */,
 				3E7ABE9520F54E90008261BE /* Post.m in Sources */,
 				3E7ABE9E20F586F7008261BE /* DetailTableViewCell.m in Sources */,
+				3E7D586D20F6ABD900DC19F0 /* PhotoViewController.m in Sources */,
+				3E7D587020F6C77B00DC19F0 /* ProfileCollectionViewCell.m in Sources */,
 				3E7ABE9820F55641008261BE /* PostTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
