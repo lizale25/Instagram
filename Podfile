@@ -7,6 +7,7 @@ target 'lizInsta' do
 
   # Pods for lizInsta
 pod 'Parse'
+pod 'ParseUI'
 
   target 'lizInstaTests' do
     inherit! :search_paths
