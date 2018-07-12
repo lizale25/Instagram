@@ -138,6 +138,8 @@
 				3E84A64220F4325C006C88E7 /* HomeViewController.m */,
 				3E7ABE9020F52F71008261BE /* PostViewController.h */,
 				3E7ABE9120F52F71008261BE /* PostViewController.m */,
+				3E7D587120F6C9FB00DC19F0 /* PostGridViewController.h */,
+				3E7D587220F6C9FB00DC19F0 /* PostGridViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -179,14 +181,12 @@
 				3E7ABE9D20F586F7008261BE /* DetailTableViewCell.m */,
 				3E7ABE9620F55641008261BE /* PostTableViewCell.h */,
 				3E7ABE9720F55641008261BE /* PostTableViewCell.m */,
+				3E7D586E20F6C77B00DC19F0 /* ProfileCollectionViewCell.h */,
+				3E7D586F20F6C77B00DC19F0 /* ProfileCollectionViewCell.m */,
 				3E7D586920F6AB2500DC19F0 /* ViewControllers */,
 				3EB1F2AB20F41CB8001762F9 /* AppDelegate.h */,
 				3EB1F2AC20F41CB9001762F9 /* AppDelegate.m */,
 				3EB1F2B120F41CB9001762F9 /* Main.storyboard */,
-				3E7D587120F6C9FB00DC19F0 /* PostGridViewController.h */,
-				3E7D587220F6C9FB00DC19F0 /* PostGridViewController.m */,
-				3E7D586E20F6C77B00DC19F0 /* ProfileCollectionViewCell.h */,
-				3E7D586F20F6C77B00DC19F0 /* ProfileCollectionViewCell.m */,
 				3E7ABE9320F54E90008261BE /* Post.h */,
 				3E7ABE9420F54E90008261BE /* Post.m */,
 				3EB1F2B420F41CBA001762F9 /* Assets.xcassets */,
