@@ -13,7 +13,6 @@
 		3E7ABE9220F52F71008261BE /* PostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7ABE9120F52F71008261BE /* PostViewController.m */; };
 		3E7ABE9520F54E90008261BE /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7ABE9420F54E90008261BE /* Post.m */; };
 		3E7ABE9820F55641008261BE /* PostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7ABE9720F55641008261BE /* PostTableViewCell.m */; };
-		3E7ABE9E20F586F7008261BE /* DetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7ABE9D20F586F7008261BE /* DetailTableViewCell.m */; };
 		3E7D586D20F6ABD900DC19F0 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D586C20F6ABD900DC19F0 /* PhotoViewController.m */; };
 		3E7D587020F6C77B00DC19F0 /* ProfileCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D586F20F6C77B00DC19F0 /* ProfileCollectionViewCell.m */; };
 		3E7D587320F6C9FB00DC19F0 /* PostGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D587220F6C9FB00DC19F0 /* PostGridViewController.m */; };
@@ -58,8 +57,6 @@
 		3E7ABE9420F54E90008261BE /* Post.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
 		3E7ABE9620F55641008261BE /* PostTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostTableViewCell.h; sourceTree = "<group>"; };
 		3E7ABE9720F55641008261BE /* PostTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostTableViewCell.m; sourceTree = "<group>"; };
-		3E7ABE9C20F586F7008261BE /* DetailTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailTableViewCell.h; sourceTree = "<group>"; };
-		3E7ABE9D20F586F7008261BE /* DetailTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailTableViewCell.m; sourceTree = "<group>"; };
 		3E7D586B20F6ABD900DC19F0 /* PhotoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
 		3E7D586C20F6ABD900DC19F0 /* PhotoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
 		3E7D586E20F6C77B00DC19F0 /* ProfileCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileCollectionViewCell.h; sourceTree = "<group>"; };
@@ -172,8 +169,6 @@
 			isa = PBXGroup;
 			children = (
 				3E7D586A20F6AB6C00DC19F0 /* Cells */,
-				3E7ABE9C20F586F7008261BE /* DetailTableViewCell.h */,
-				3E7ABE9D20F586F7008261BE /* DetailTableViewCell.m */,
 				3E7ABE9620F55641008261BE /* PostTableViewCell.h */,
 				3E7ABE9720F55641008261BE /* PostTableViewCell.m */,
 				3E7D586E20F6C77B00DC19F0 /* ProfileCollectionViewCell.h */,
@@ -456,7 +451,6 @@
 				3E7D587320F6C9FB00DC19F0 /* PostGridViewController.m in Sources */,
 				3E84A64320F4325C006C88E7 /* HomeViewController.m in Sources */,
 				3E7ABE9520F54E90008261BE /* Post.m in Sources */,
-				3E7ABE9E20F586F7008261BE /* DetailTableViewCell.m in Sources */,
 				3E7D586D20F6ABD900DC19F0 /* PhotoViewController.m in Sources */,
 				3E7D587020F6C77B00DC19F0 /* ProfileCollectionViewCell.m in Sources */,
 				3E7ABE9820F55641008261BE /* PostTableViewCell.m in Sources */,
