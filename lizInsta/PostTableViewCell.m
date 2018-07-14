@@ -45,7 +45,7 @@
         NSLog(@"%lu",(unsigned long)[ self.likes count]);
     }
     else{
-        value -= 1;
+        value = 0;
         [self.likeButton setSelected:NO];
         self.likeCount.text = [NSString stringWithFormat:@"%d", value];
         NSLog(@"Successfully unfavorited the following Tweet:");

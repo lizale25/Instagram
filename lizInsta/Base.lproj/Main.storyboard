@@ -176,7 +176,7 @@
                                                     </state>
                                                 </button>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fPS-cO-8Be" customClass="PFImageView">
-                                                    <rect key="frame" x="24" y="106" width="240" height="128"/>
+                                                    <rect key="frame" x="0.0" y="66" width="375" height="215"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                             </subviews>
@@ -672,6 +672,7 @@
         <image name="profile_tab" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="sdY-Gl-BBL"/>
         <segue reference="K8x-fD-lfv"/>
         <segue reference="tUk-5N-qGq"/>
     </inferredMetricsTieBreakers>

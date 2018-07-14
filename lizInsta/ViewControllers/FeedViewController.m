@@ -47,7 +47,7 @@
     cell.post = post;
     cell.username.text = post.author.username;
     cell.usernameTwo.text = post.author.username;
-   // cell.postPicture.file = post.image;
+    cell.postPicture.file = post.image;
     cell.caption.text = post.caption;
     NSDate *date = [NSDate date];
     NSDateFormatter *format = [[NSDateFormatter alloc] init];
@@ -55,7 +55,7 @@
     NSString *dateString = [format stringFromDate:date];
     self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"smallest"]];
     cell.timeStamp.text = dateString;
-  // [cell.postPicture loadInBackground];
+    [cell.postPicture loadInBackground];
     
     return cell;
     
