@@ -45,6 +45,26 @@
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
+- (IBAction)shareButtonPressed:(id)sender {
+    [Post postUserImage:self.picture.image withCaption:self.caption.text withCompletion:^(BOOL succeeded, NSError * _Nullable error) {
+        if (succeeded) {
+            
+        } else {
+            
+        }
+    }];
+}
+
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
 - (UIImage *)resizeImage:(UIImage *)image withSize:(CGSize)size {
     UIImageView *resizeImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, size.width, size.height)];
     resizeImageView.contentMode = UIViewContentModeScaleAspectFill;

@@ -14,7 +14,7 @@
 
 @interface PostGridViewController () <UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout>
 
-@property (weak, nonatomic) IBOutlet UIImageView *profileImage;
+@property (weak, nonatomic) IBOutlet PFImageView *profileImage;
 @property (weak, nonatomic) IBOutlet UILabel *username;
 @property (nonatomic, strong) NSArray *posts;
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
